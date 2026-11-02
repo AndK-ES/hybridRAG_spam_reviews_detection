@@ -1,0 +1,16 @@
+Evaluation,Scenario,Metric,Delta,CI_Low,CI_High,P_Value,Significant,Source
+Main,In-Domain,Precision,0.0562,0.0271,0.0873,<0.05,yes,paper Table 5
+Main,In-Domain,Recall,-0.0614,-0.0897,-0.0326,<0.05,yes,paper Table 5
+Main,In-Domain,F1,-0.0075,-0.0314,0.0173,0.055,no,paper Table 5
+Main,Hotel Reviews (fine-tuned),Precision,0.1388,0.0715,0.2071,<0.05,yes,paper Table 5
+Main,Hotel Reviews (fine-tuned),Recall,-0.2803,-0.3688,-0.1940,<0.05,yes,paper Table 5
+Main,Hotel Reviews (fine-tuned),F1,0.0260,-0.0456,0.0913,0.46,no,paper Table 5
+Main,Cross-Domain (fine-tuned),Precision,0.0416,0.0213,0.0608,<0.05,yes,paper Table 5
+Main,Cross-Domain (fine-tuned),Recall,-0.0455,-0.0660,-0.0254,<0.05,yes,paper Table 5
+Main,Cross-Domain (fine-tuned),F1,0.0042,-0.0115,0.0195,0.59,no,paper Table 5
+Zero-shot,Hotel Reviews,Precision,0.0283,0.0103,0.0457,<0.05,yes,paper Table A.10
+Zero-shot,Hotel Reviews,Recall,-0.1468,-0.1953,-0.1018,<0.05,yes,paper Table A.10
+Zero-shot,Hotel Reviews,F1,0.0114,-0.0145,0.0350,0.341,no,paper Table A.10
+Zero-shot,Cross-Domain,Precision,0.0779,0.0613,0.0954,<0.05,yes,paper Table A.10
+Zero-shot,Cross-Domain,Recall,-0.1031,-0.1269,-0.0778,<0.05,yes,paper Table A.10
+Zero-shot,Cross-Domain,F1,-0.0083,-0.0262,0.0010,0.388,no,paper Table A.10

@@ -1,0 +1,11 @@
+Model,Accuracy,F1,Precision,Recall,PR_AUC,Source
+TF-IDF + LogReg,0.7614,0.5766,0.6154,0.5424,0.4708,paper Table 3
+TF-IDF + LinearSVM,0.7665,0.5490,0.6512,0.4746,0.4664,paper Table 3
+TF-IDF + SVM,0.7614,0.4598,0.7143,0.3390,0.4401,paper Table 3
+TF-IDF + Naive Bayes,0.7056,0.0333,1.0000,0.0169,0.3114,paper Table 3
+RoBERTa + LogReg,0.6904,0.5674,0.4878,0.6780,0.4272,paper Table 3
+RoBERTa + LinearSVM,0.6954,0.5385,0.4930,0.5932,0.4143,paper Table 3
+RoBERTa + SVM,0.7157,0.5484,0.5231,0.5763,0.4283,paper Table 3
+RoBERTa + RandomForest,0.7614,0.4471,0.7308,0.3220,0.4384,paper Table 3
+RoBERTa + LightGBM,0.7360,0.4468,0.6000,0.3559,0.4065,paper Table 3
+RoBERTa-LoRA,0.8115,0.6837,0.6846,0.6829,0.6918,paper Table 3

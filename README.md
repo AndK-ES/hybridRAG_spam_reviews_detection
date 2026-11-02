@@ -21,7 +21,7 @@ The central design choice is selective reasoning: confident reviews bypass the L
 - [Hybrid RAG for Deceptive Review Detection](#hybrid-rag-for-deceptive-review-detection)
   - [Table of contents](#table-of-contents)
   - [Architecture](#architecture)
-  - [Exdpermient Results](#exdpermient-results)
+  - [Experiment Results](#experiment-results)
   - [Repository layout](#repository-layout)
   - [Installation](#installation)
     - [LLM backend](#llm-backend)
@@ -50,7 +50,7 @@ ratio and the top-3 examples to the LLM, and keeps the raw response for audit.
 
 ---
 
-## Exdpermient Results
+## Experiment Results
 
 Classifier comparison on the in-domain test split:
 

@@ -1,0 +1,36 @@
+# Core scientific stack -------------------------------------------------------
+numpy>=1.26,<3
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+
+# Deep learning ---------------------------------------------------------------
+torch>=2.2
+transformers>=4.41
+peft>=0.11
+datasets>=2.19
+accelerate>=0.30
+
+# Embeddings and vector search ------------------------------------------------
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+
+# Retrieval-augmented generation ---------------------------------------------
+langchain-core>=0.2
+langchain-ollama>=0.1
+
+# Data formats ----------------------------------------------------------------
+pyarrow>=15.0
+openpyxl>=3.1
+
+# Dataset download (optional, notebook 01) ------------------------------------
+kaggle>=1.6
+
+# Optional baseline (notebook 05) ---------------------------------------------
+# lightgbm>=4.0
+
+# Notebooks -------------------------------------------------------------------
+jupyterlab>=4.1
+ipykernel>=6.29
